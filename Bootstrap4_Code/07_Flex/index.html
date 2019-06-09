@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Flex Boxes</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center display-4">Flex</h1>
+      <div class="border border-dark d-flex justify-content-start align-items-end flex-row-reverse" style="height:200px"> 
+        <button class="btn btn-info btn-lg">large</button>
+        <button class="btn btn-warning">small</button>
+        <button class="btn btn-danger">small</button>
+      </div>
+      <!-- main axis changed to top-bottom -->
+      <div class="border border-dark d-flex flex-column justify-content-end" style="height:200px"> 
+        <button class="btn btn-info btn-lg">large</button>
+        <button class="btn btn-warning">small</button>
+        <button class="btn btn-danger">small</button>
+      </div>
+      <!-- from bottom to top -->
+      <div class="border border-dark d-flex flex-column-reverse justify-content-start" style="height:200px"> 
+        <button class="btn btn-info btn-lg">large</button>
+        <button class="btn btn-warning">small</button>
+        <button class="btn btn-danger">small</button>
+      </div>
+      <!-- flex box -->
+      <!-- flex box: main axis is from left to right -->
+      <!-- cross axis: from top to bottom -->
+      <!-- justify-content-center or between or end or around -->
+      <div class="border border-dark d-flex justify-content-around" style="height:200px"> 
+        <button class="btn btn-info btn-lg">large</button>
+        <button class="btn btn-warning">small</button>
+        <button class="btn btn-danger">small</button>
+      </div>
+      <!-- cross avis: align-top -->
+      <!-- all these are responsive -->
+      <div class="border border-dark d-flex align-items-center justify-content-center" style="height:200px"> 
+        <button class="btn btn-info btn-lg">large</button>
+        <button class="btn btn-warning">small</button>
+      </div>
+
+      <h1 class="text-center display-4">Example</h1>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <button class="btn btn-dark btn-lg">button </button>
+        <button class="btn btn-dark btn-lg">button </button>
+        <button class="btn btn-dark btn-lg">button </button>
+        <button class="btn btn-dark btn-lg">button </button>
+        <button class="btn btn-dark btn-lg">button </button>
+        <button class="btn btn-dark btn-lg">button </button>
+      </div>
+    </div>
+    
+    <!-- rem: relative to root font size: 16px --> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

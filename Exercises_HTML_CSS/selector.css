@@ -1,0 +1,47 @@
+/*selects everything in the page*/
+* {
+	border:1px solid black;
+}
+
+/*descendant selector*/
+/*selects every a inside li*/
+li a {
+
+}
+
+li .hello{
+
+}
+
+/*adjacent selector*/
+/*sibling on the same level*/
+h4 + ul {
+
+}
+/*ul adjacent to h4*/
+
+/*attribute selector*/
+/*e.g. for all images*/
+/*An anchor tag is an HTML tag. It is used to define the beginning and end of a hypertext link*/
+a[href="http://www.google.com"]{
+	background:blue;
+}
+
+input[type="text"]{
+
+}
+
+/*nth of type*/
+/*the final ul*/
+ul:nth-of-type(3){
+
+}
+
+/*this selects all 3rd li in each ul*/
+li:nth-of-type(3){
+
+}
+
+li:nth-of-type(even){
+	
+}

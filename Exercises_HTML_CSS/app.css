@@ -1,0 +1,57 @@
+h1 {
+	color: #9f4ff9;
+	/*can use color picker*/
+	/*border must have the 3 attributes:*/
+	/*border-color: black;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px solid black; 
+	border: 5px dashed rgb(0,255,255); 
+}
+
+/*width
+color
+style*/
+h4 {
+	background: rgb(255,100,80);
+}
+li {
+	color: rgba(0,130,120,.6);
+}
+body{
+	/*image is not big enough*/
+	background: url(https://www.indiewire.com/wp-content/uploads/2014/11/kikis-delivery-service.jpg?w=640);
+	background-repeat: no-repeat;
+	/*high resolution*/
+	background-size: cover;
+
+}
+/*
+DECIMAL - Base 10  
+0 - 9
+
+999
+001
+_ _ _
+
+BINARY - Base 2
+0, 1
+
+111
+
+_ _ _
+
+HEXADECIMAL - Base 16
+0 - 9 and A - F
+
+F F F
+0 0 0
+_ _ _
+
+# _ _ _ _ _ _
+_ _: red _ _: green _ _: blue
+The mixture is not the same as painting color mixture
+
+RGB
+*/

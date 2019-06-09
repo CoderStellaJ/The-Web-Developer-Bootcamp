@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- action and method -->
+	<!-- default action is sending to the same place where we are at -->
+	<!-- we actually send data or get from our backend -->
+	<!-- <form action="http://google.com" method="get"> -->
+	<form>
+		<!-- the link has extra info for username and password wh nyou click submit -->
+		<!-- int he action, the data is extracted -->
+		<label>
+			Username:
+			<input type="text" placeholder="username" name="username" required>
+		</label>
+		
+<!-- 	<input type="color" name=""> -->
+		<label>
+			Password:
+			<input type="password" placeholder="password" name="password" required>	
+		</label>
+		
+		<!-- The following are the same -->
+		<!-- <button>Submit</button> -->
+		<!-- when click submit, the page is refreshed -->
+		<input type="submit">	
+	</form>
+	<!-- without form tag, everything will be in the same line -->
+
+	<form>
+		<!-- for and id help to match the input and label -->
+		<label for="email">
+			Email:
+		</label>
+		<input id="email" type="email" placeholder="email" required>
+		<label for="password">
+			Password:
+		</label>
+		<input type="password" id="password" placeholder="password">
+		<input type="submit" name="">
+	</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+img{
+	width:30%;
+	/*no margin that browser added for us and customize it by ourselves*/
+	float:left;
+	margin: 1.66%;
+}
+
+p{
+	font-family: Ranga;
+	margin-left:1.66%;
+	font-size:23px;
+	/*for bold fonts*/
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom:2px solid #f1f1f1;
+	width:30%;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+p {
+	/*for border*/
+	/*width: 200px;*/
+	width:50%;
+	/*50% of the parent class*/
+	/*now the width changes with the window when you zoom in*/
+	/*height:30px;*/
+	border: 2px solid blue;
+	/*border-top: ;*/
+	/*padding: 10px;*/
+	padding-left:40px;
+
+/*	margin:100px;
+	margin-top:500px;
+	margin: 20px 40px 500px 100px;*/
+	/*top right bottom left*/
+	margin: 0 auto 0 auto;
+	/*center the element automatically*/
+	margin: 0 auto;
+}

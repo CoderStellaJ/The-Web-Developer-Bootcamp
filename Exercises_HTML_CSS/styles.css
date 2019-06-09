@@ -1,0 +1,52 @@
+ p {
+ 	font-family: Arial;
+ 	/*"19 Arial" need to ahve double quotes*/
+ }
+
+ h1{
+ 	font-family: Open Sans Condensed;
+ }
+
+body {
+	font-size: 10px;
+}
+
+ h1 {
+ 	font-size: 20px;
+ 	/*can inspect it to adjust the size*/
+ 	/*em is another unit*/
+ }
+p{
+	font-size: 2.0em
+}
+ span {
+ 	/*em is relative to the parent font size*/
+ 	font-size: 2.0em;
+ }
+
+ p{
+ 	font-weight: normal;
+ 	/*some font allow you to use 100 - 800 (x00)*/
+ }
+
+ p{
+ 	line-height: 2; 	
+ 	/*the line height is determined by the font size*/
+ }
+
+ h1{
+ 	text-align: right;
+ }
+
+ p{
+ 	text-align: center;
+ }
+
+ /*text decoration*/
+ p {
+ 	text-decoration: underline;
+ }
+
+ h1{
+ 	text-decoration: line-through;
+ }

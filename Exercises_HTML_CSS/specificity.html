@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		/*styling body can also affect all the children inside*/
+		/*purple not actually being applied to ul; in inspect element, it's crossed out*/
+		/*specificity: can have multiple attributes targeting at the same thing*/
+		body{
+			color:purple;
+		}
+
+		p {
+			color: green;
+		}
+		ul {
+			color:blue;
+		}
+		.highlight{
+			color:yellow;
+		}
+		#special {
+			color: pink;
+		}
+		/*assign numeric value to each selector to show how specific something is*/
+		/*can use online specificity calculator*/
+		/*the smaller unit more specific*/
+	</style>
+</head>
+<body>
+<p>HELLO!</p>
+
+<ul>
+	<li id="special" class="highlight">A</li>
+	<li>B</li>
+	<li class="highlight">C</li>
+</ul>
+</body>
+</html>
+
+
+<!-- Type selector
+
+li{
+	
+}
+
+li a{
+	
+}
+
+li + a{
+	
+}
+
+Class, Attribute : More Specific
+
+.hello{
+	
+}
+
+input[type="text"]{
+	
+}
+
+ID selector: Most Specific
+
+#special {
+	
+} -->

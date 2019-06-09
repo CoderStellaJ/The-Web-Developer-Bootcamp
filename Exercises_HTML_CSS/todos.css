@@ -1,0 +1,33 @@
+body {
+	/*just make sure the 2 files are correctly connected*/
+	/*background: orange;*/
+}
+
+li {
+	border: 2px solid red;
+}
+/*id selector*/
+#sleep {
+	background: yellow;
+	color: red;
+}
+/*class selector*/
+.complete{
+	text-decoration: line-through;
+}
+
+/*
+Element selector
+li {
+
+}
+
+Class Selector
+.hello{
+
+}
+
+id selector
+#name{
+
+}*/

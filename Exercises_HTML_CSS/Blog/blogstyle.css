@@ -1,0 +1,38 @@
+body{
+	border: 20px solid #53617a;
+	/*top, right, bottom, and left*/
+	margin:20px auto;
+	padding:20px;
+	max-width:700px;
+}
+
+h2 {
+	text-transform: capitalize;
+	color:#5b7eb7;
+	font-family: Oswald;
+}
+
+h3 {
+	color:#afc6ed;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*em:relative to the parent class;
+	rem:relative to the global the original size*/;
+}
+
+.first{
+	border-left:2px solid #53617a;
+	padding-left:5px;
+}
+
+p{
+	font-family: "Indie Flower"
+}
+
+
+/*search online for hr css style code*/ 
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}

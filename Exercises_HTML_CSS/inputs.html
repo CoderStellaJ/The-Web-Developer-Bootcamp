@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dog">Dog</label>
+	<input id="dog" type="radio" name="petchoice" value="DOGS">
+	<label for="cat">Cat</label>
+	<!-- give these 2 the same name so that we can connect them -->
+	<!-- in this way, we can only pick one of them -->
+	<input id="cat" type="radio" name="petchoice" value="CATS">
+	<!-- drop down menu -->
+	<p>What's your fav color?</p>
+	<!-- with name attribute, the link will change  -->
+	<select name="color">
+		<option value="happy">red</option>
+		<option>orange</option>
+		<option value="sad">yellow</option>
+	</select>
+	<!-- button refreshes the page and send all info -->
+	<button>Go!</button>
+
+	<textarea rows="10" cols="15" name="paragraph"></textarea>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<!-- The first thing is to set up the whole structure before focusing on details -->
+	<!-- seperate content into h1 and form first -->
+<h1>Register</h1>
+<form>
+	<label for="firstname">First Name:</label>
+	<!-- placeholder is the attribute to display in box -->
+	<input type="text" name="first" id="firstname" placeholder="John" required>
+	<label for="lastname">Last Name:</label>
+	<input type="text" name="last" id="lastname" placeholder="Smith" required>
+	<!-- use p for a newline -->
+	<!-- or we can use div -->
+<div>
+	<!-- 2 ways for labelling -->
+	<label>Male:<input type="radio" name="gender" value="male"></label>
+	<label>Female:<input type="radio" name="gender" value="female"></label>
+	<label>Other:<input type="radio" name="gender" value="other"></label>
+</div>
+
+<div>
+	<label>Email:<input type="email" placeholder="Your email" required></label>
+	<!-- pattern attribute helps us to specify the requirement -->
+	<label>Password:<input type="password" placeholder="Password" pattern=".{5,10}" required title="5 to 10 characters"></label>
+</div>
+
+<div>
+	<!-- put all 3 selects into label -->
+	<label>Birthday:
+		<select name="Month">
+			<option>Month</option>
+			<option value="5">May</option>
+			<option>May</option>
+			<option>May</option>
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option>28</option>
+			<option>28</option>
+			<option>28</option>
+		</select>
+	<!-- use name of select to display in dropdown menu -->
+		<select name="Year">
+			<option>Year</option>
+			<option>2019</option>
+		</select>
+	</label>
+</div>
+<!-- <p>I agree to the terms and conditions</p> -->
+<div>
+	<label for="agreed">
+		I agree the terms and conditions:
+	</label>
+	<!-- type is checkbox -->
+	<input type="checkbox" id="agreed" name="agree">
+</div>
+<button>Submit</button>
+</form>
+
+</body>
+</html>
