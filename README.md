@@ -15,3 +15,15 @@ CSS Design:
 
 HTML Reference: 
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+Javascript 
+
+Animation:
+* http://paperjs.org/
+
+Audio:
+* https://howlerjs.com/
+
+Sounds:
+* https://github.com/jonobr1/Neuronal-Synchrony
+
