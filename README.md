@@ -27,3 +27,5 @@ Audio:
 Sounds:
 * https://github.com/jonobr1/Neuronal-Synchrony
 
+Stack:
+* https://stackshare.io/
