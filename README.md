@@ -29,3 +29,9 @@ Sounds:
 
 Stack:
 * https://stackshare.io/
+
+IDE:
+* https://ide.goorm.io/
+
+Database set up:
+* https://www.youtube.com/playlist?list=PL86ehqHzxhy4oHmZoMMJPEKuryOk287oU
